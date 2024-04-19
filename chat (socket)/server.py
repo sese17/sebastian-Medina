@@ -8,7 +8,7 @@ def main():
     
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind((host, port))
-    server_socket.listen(1)  # Solo se permite una conexión
+    server_socket.listen(1)  
 
     print("Servidor escuchando en {}:{}".format(host, port))
 
